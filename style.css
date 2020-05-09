@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+.main{	
+	height:100vh;
+	
+	background: rgb(10,242,10);
+	background: linear-gradient(90deg, rgba(10,242,10,1) 6%, rgba(6,226,235,1) 41%, rgba(102,0,255,1) 96%);
+}
+#calculator{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.btn{
+	width:90px;
+	height:90px;
+	font-size: 30px;
+	cursor:pointer;
+	background-color: #252641;
+	color:#FFF;
+	border:none;
+}
+.textview{
+	width:352px;
+	height:70px;
+	margin:2px;
+	font-size:50px;
+	padding:5px;
+	bolder:none;
+	color:#252641;
+}
+#equal{
+	height:182px;
+}
+#zero{
+	width:182px;
+}
