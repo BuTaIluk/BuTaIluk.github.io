@@ -5,7 +5,6 @@
 .main{	
 	height:100vh;
 	
-	background: rgb(10,242,10);
 	background: linear-gradient(90deg, rgba(10,242,10,1) 6%, rgba(6,226,235,1) 41%, rgba(102,0,255,1) 96%);
 }
 #calculator{
@@ -13,6 +12,8 @@
 	top:50%;
 	left:50%;
 	transform: translateX(-50%) translateY(-50%);
+	
+	display:grid;
 }
 .btn{
 	width:90px;
@@ -24,12 +25,12 @@
 	border:none;
 }
 .textview{
-	width:352px;
+	width:356px;
 	height:70px;
 	margin:2px;
 	font-size:50px;
 	padding:5px;
-	bolder:none;
+	border:none;
 	color:#252641;
 }
 #equal{
