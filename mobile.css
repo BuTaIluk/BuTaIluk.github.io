@@ -71,7 +71,6 @@
 	"item-13 item-14 item-15 item-16" 1fr
 	"item-17 item-17 item-18 item-16" 1fr / 1fr 1fr 1fr 1fr;
 	
-	grid-gap:5px;
 }
 .main{
 	background:#182655;
@@ -87,8 +86,13 @@
 	height:100%;
 	margin:0px;
 	font-size:72px;
-	text-align:right;
-	
+	text-align:right;	
+}
+input{
+	outline: none;
+	border: none;
+	outline: 0;
+    outline-offset: 0;
 }
 }
 
