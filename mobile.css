@@ -1,4 +1,4 @@
-@media (max-width: 800px) { 
+@media (max-width: 1466px) { 
 #item-0{
 	grid-area:item-0;
 }
@@ -75,6 +75,7 @@
 .main{
 	background:#182655;
 }
+
 .btn{
 	width:100%;
 	height:100%;
@@ -86,13 +87,30 @@
 	height:100%;
 	margin:0px;
 	font-size:72px;
-	text-align:right;	
+	text-align:right;
+	z-index:1;
 }
 input{
-	outline: none;
-	border: none;
 	outline: 0;
     outline-offset: 0;
+}
+.colorPicker{
+	position:absolute;
+	z-index:100;
+}
+#colorBtn{
+	margin:5px;
+	
+	height:30px;
+	width:30px;
+	
+	border-radius:50%;
+	
+	overflow:hidden;
+	
+	background-color: inherit;
+	
+	border:0;
 }
 }
 

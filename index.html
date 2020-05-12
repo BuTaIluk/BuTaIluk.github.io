@@ -10,9 +10,11 @@
 </head>
 <body>
 	<div class="main">
+	<div class="colorPicker">
+	<input onclick="changeColor()" id="colorBtn" type="color" name="bg" value="#ff0000"></div>
 		<div id="calculator">
-				<form name="form" id = "item-0">
-				<input class="textview" name="textview" >
+				<form  name="form" id = "item-0">
+				<input  class="textview" name="textview" >
 				</form>
 				<td><input id = "item-1" class="btn" type="button" value="C" onclick="clean()"></td>
 				<td><input id = "item-2" class="btn" type="button" value="<" onclick="back()"></td>
@@ -37,9 +39,7 @@
 				<td colspan=2><input id = "item-17" class="btn" id="zero" type="button" value="0" onclick="insert(0)"></td>
 				<td><input id = "item-18" class="btn" type="button" value="." onclick="insert('.')"></td>
 
-			
 		</div>
-	</div>   
-<div id="background"></div>	
+	</div>   	
 </body>
 </html>
